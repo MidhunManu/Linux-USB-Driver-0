@@ -12,3 +12,5 @@ void char_driver_exiti(void) {
 
 module_init(char_driver_init);
 module_exit(char_driver_exit);
+MODULE_AUTHOR("MidhunManu");
+MODULE_LICENSE("GPL");
