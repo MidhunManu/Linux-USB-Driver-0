@@ -1,12 +1,12 @@
 #include <linux/module.h>
 #include <linux/init.h>
 
-int char_driver_init(void) {
+static int char_driver_init(void) {
 		printk(KERN_INFO "hello\n");
 		return 0;
 }
 
-void char_driver_exit(void) {
+static void char_driver_exit(void) {
 		printk(KERN_INFO "bye\n");
 }
 
